@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Gandalf</title>
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div id="container">
+            <div class="title">
+            </div
+            <div id="content">
+                <form method="GET" action="">
+                  <input type="submit" value="You shall pass!" name="go" />
+		<p>hallo</p>
+
+
+		<a href="default.asp">
+		<img src="/home/pi/d/app/static/git" alt="HTML tutorial" style="width:42px;height:42px;border:0">
+		</a>
+                </form>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
