@@ -1,98 +1,23 @@
-::selection{ background-color: #E13300; color: white; }
-::moz-selection{ background-color: #E13300; color: white; }
-::webkit-selection{ background-color: #E13300; color: white; }
-
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-    color: #888;
     font-style: normal;
-    font-size: 14px;
-    line-height: 22px;
+    background-image:url('https://404store.com/2018/07/20/water-lily-3504363__340.md.jpg');
+    margin: center;
+    background-size:cover; 
 }
 
-a {
-    color: #003399;
-    background-color: transparent;
-    font-weight: normal;
-}
 
-.title {
-    padding: 0 20px;
-    background: #32373a;
-    position: relative;
-    height: 50px;
-}
 
-h1 {
-    color: #fff;
-    margin: 0;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 50px;
-    text-transform: capitalize;
-}
-
-code {
-    font-family: Consolas, Monaco, Courier New, Courier, monospace;
-    font-size: 12px;
-    background-color: #f9f9f9;
-    border: 1px solid #D0D0D0;
-    color: #002166;
-    display: block;
-    padding: 12px 10px 12px 10px;
-}
-
-#content {
-    padding: 20px;
-    zoom: 1;
-}
-
-#body{
-    margin: 0 15px 0 15px;
-}
-
-p.footer{
-    text-align: right;
-    font-size: 11px;
-    border-top: 1px solid #D0D0D0;
-    line-height: 32px;
-    padding: 0 10px 0 10px;
-    margin: 20px 0 0 0;
-}
-
-#container{
-    margin: 10px;
-    border: 1px solid #D0D0D0;
-    -webkit-box-shadow: 0 0 8px #D0D0D0;
-}
-
-/* Form Styles */
-form label{
-    display: block;
-    margin-bottom: 5px;
-}
-form input[type=text]{
-    border: 1px solid #aaa;
-    border-radius: 2px;
-    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
-    box-sizing: border-box;
-    padding: 5px;
-    margin-bottom: 20px;
-    outline: 0;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
-    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
-}
 form input[type=submit]{
-    background: #198ad1;
+    background-color: Transparent;
+    background-repeat:no-repeat;
     color: #fff;
     display: inline-block;
-    padding: 0 20px;
-    font-size: 16px;
+    padding: 0 50px;
+    font-size: 100px;
     line-height: 2.6em;
     font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.1);
     -moz-box-shadow: inset 0 -1px 0 rgba(0,0,0,.1);
     box-shadow: inset 0 -1px 0 rgba(0,0,0,.1);
@@ -100,7 +25,11 @@ form input[type=submit]{
     -moz-border-radius: 2px;
     border-radius: 2px;
     text-transform: capitalize;
-    border: 0;
-    cursor: pointer;
+    border: none;
     text-align: center;
-} 
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    outline:none;
+    cursor: url("https://www.sunnysballonbude.de/WebRoot/Store20/Shops/63880025/59F6/F767/6B60/D577/6F4B/0A0C/6D01/8B55/Schmetterling_pink_s.png"), auto;
+}

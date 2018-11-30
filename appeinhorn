@@ -5,7 +5,10 @@ import subprocess
 from datetime import datetime
 import time
 from threading import Thread
-
+from werkzeug import serving
+import ssl
+import sys
+from flask_sslify import SSLify
 
 '----------------------> Helpers <-----------------------------'
 def write_file(path, value):
@@ -24,8 +27,9 @@ write_file('/sys/class/gpio/export','22')
 write_file('/sys/class/gpio/gpio22/direction','out')
 
 
-app = Flask(__name__)
 
+app = Flask(__name__)
+sslify = SSLify(app)
 @app.route('/', methods=['GET','POST'])
 def do():
 
@@ -38,11 +42,8 @@ def do():
 
 
 
-    return render_template('form.html')
+    return render_template('form1.html')
 
 
 if __name__ == "__main__":
-    app.run('0.0.0.0',port='80')
-
-
-
+    app.run('0.0.0.0',port='8000',ssl_context=('server.crt','server.key'))
